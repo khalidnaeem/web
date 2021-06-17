@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Saloon </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <style>
+        .header {
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            height: 120px;
+        }
+        
+        h3 {
+            color: #990099;
+        }
+        /* .paras {
+            font-size: 14px;
+            color: black;
+            position: absolute;
+            left: 120px;
+            top: 70px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        */
+        
+        .move {
+            font-size: 14px;
+            color: black;
+            font-weight: 400;
+            position: relative;
+            bottom: 50px;
+        }
+        
+        h5 {
+            color: #990099;
+        }
+        
+        .move1 {
+            position: relative;
+            bottom: 41px;
+            font-size: 16px;
+            color: black;
+            font-weight: 400;
+        }
+        
+        .btn {
+            color: #990099;
+        }
+        
+        .navbars li {
+            font-size: 15px;
+            padding: 40px;
+        }
+        
+        .navbars li a {
+            text-transform: uppercase;
+        }
+        
+        nav .navbar-nav li a {
+            color: white !important;
+            font-weight: 400;
+        }
+        
+        nav .navbar-nav li a:hover {
+            background-color: purple;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .btns {
+            text-decoration: underline;
+        }
+        
+        .span {
+            position: relative;
+            bottom: 90px;
+            color: purple;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .span1 {
+            position: relative;
+            bottom: 90px;
+            color: black;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .span2 {
+            position: relative;
+            bottom: 150px;
+            color: white;
+            font-size: 60px;
+            font-weight: 400;
+            text-align: center;
+            font-family: 'Redressed', cursive;
+        }
+        
+        #cols {
+            background: url('checker.png');
+        }
+        
+        #map a {
+            color: white;
+        }
+        
+        body {
+            overflow-x: hidden;
+            height: 100%;
+            position: relative;
+        }
+    </style>
+</head>
+
+
+<body style="background-color:white; background-size: cover; background-position: center; height:600px; background-repeat: no-repeat;">
+
+    <div class="container-fluid">
+
+        <div class="row px-1">
+
+            <div class="col-12  bg-light header">
+
+                <div class="row">
+
+                    <div class="col-md-4">
+
+                        <h3> <img src="wedding_PNG19498.png " class="img-fluid mt-4 p-1" width='100px;' height='100px;'> Jewllery <span class="move d-inline-block px-5 mx-5  w-100"> Best design to deliver</span> </h3>
+                    </div>
+
+                    <div class="col-md-4  px-4">
+                        <img src="diomonds.png" class="img-fluid mt-3 p-1" width='200px;' height='200px;'>
+
+                    </div>
+
+                    <div class="col-md-4 px-4">
+                        <h5 class="font-weight-normal"> <img src="shoppingbaskets.png" class="img-fluid mt-1 p-1" width='100px;' height='100px;'> Shopping basket <span class="move1 d-inline-block px-5 mx-5  w-100"> O items | $0.00</span>
+                            <span class="move d-inline-block px-5 mx-5 w-100 "> <a href="#" class="btn d-inline-block btns" role="button">Checkout<<</a> </span>
+                        </h5>
+                    </div>
+
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container">
+
+                    <div class="navbar-collapse  w-100 " id="navbarNav">
+                        <ul class="navbar-nav navbars">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> New Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href='#'>Gift Packages</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href='#'>Free Shipping</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href='#'>Help</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href='#'>About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+            <div class="row mt-4 px-1">
+
+                <div class="col-md-3">
+
+                    <div class="img-thumbnail" style="background-color:purple; opacity:0.7;">
+
+                        <h6 class="text-center text-white font-weight-normal"> Search Our Product</h6>
+
+                        <input type="text" class="px-4" placeholder="search our product">
+
+
+                        <img src="searchbar.png" class="img-fluid p-2" style="transform: rotate(90deg);" width="50px">
+
+
+                    </div>
+
+                    <div class="img-thumbnail bg-dark mb-1">
+
+                        <h7 class="text-center text-white font-weight-normal" style="text-decoration: underline;"> Understood search</h7>
+
+
+                    </div>
+
+
+                    <div class="img-thumbnail mt-2">
+
+                        <img src="ring.png" class="img-fluid" width="200" height="200">
+
+                        <h4 class="text-center"> NOW $ 150</h4>
+
+                        <a href="#" class="px-5" style="color: purple; font-size:15px;"> MORE INFORMATION<<</a>
+                    </div>
+
+                    <div class="img-thumbnail bg-dark text-white text-center" style="text-transform: uppercase; border-bottom-left-radius:10px; border-bottom-right-radius:10px;">
+                        Featured Image
+
+                    </div>
+
+                    <div class="img-thumbnail mt-2">
+
+                        <img src="jewelleryshopping.png" class="img-fluid" width="200" height="200">
+
+                        <h5 class="text-center" style="color:orange"> Lorem Ipsum Dollar</h5>
+
+                    </div>
+                    <div class="img-thumbnail bg-dark text-white text-center" style="text-transform: uppercase; border-bottom-left-radius:10px; border-bottom-right-radius:10px;">
+                        Featured Designer
+
+                    </div>
+
+                    <div class="img-thumbnail mt-2">
+
+                        <img src="gifts.png" class="img-fluid" width="200" height="200">
+
+                        <h5 class="span1"> ESPIECAL OCCATION FOR GIFTS</h4>
+
+                    </div>
+                    <div class="img-thumbnail bg-dark text-white text-center" style="text-transform: uppercase; border-bottom-left-radius:10px; border-bottom-right-radius:10px;">
+                        GIFT VOLID-ERS
+
+                    </div>
+
+
+                    <div class="img-thumbnail mt-2">
+
+                        <img src="customersupport.png" class="img-fluid" width="200" height="100" style='opacity:0.5;'>
+
+                        <h5 class="span">24/7 CUSTOMER SUPPORT SERVICE</h5>
+
+                    </div>
+                    <div class="img-thumbnail bg-dark text-white text-center" style="text-transform: uppercase; border-bottom-left-radius:10px; border-bottom-right-radius:10px;">
+                        CUSTOMER SUPPORT SERVICE
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-9">
+
+                    <img src="pexels-dreamlens-production-3711677.jpg" class="rounded mx-auto d-block bg-light" style='background-position: center; background-size: cover;' alt="not found" width="1000px" height="400px">
+
+                    <h5 class="span2"> QUESUOQA MELISUADA</h5>
+
+                    <div class="row rounded" style="background:url('checker.png'); height:300px; background-size: cover;">
+
+                        <h5 class="mt-4"> ENGAGEMENT <span class='text-dark'>RINGS </span> </h5>
+
+                        <div class="col-md-3 mb-5 text-center">
+
+                            <div class="img-thumbnail" style="width:200px;">
+
+                                <img src="ring.png" class="img-fluid">
+
+                                <p class="text-center"> Price <span class="px-4"> $2145</span></p>
+
+                                <a href="#" class="px-4" style="color: purple;"> CART</a> |
+
+                                <a href="#" class="px-3" style="color: purple;"> VIEW</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-5 text-center">
+
+                            <div class="img-thumbnail" style="width:200px;">
+
+                                <img src="ringing.png" class="img-fluid">
+
+                                <p class="text-center"> Price <span class="px-4"> $3145</span></p>
+
+                                <a href="#" class="px-4" style="color: purple;"> CART</a> |
+
+                                <a href="#" class="px-3" style="color: purple;"> VIEW</a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 mb-5 text-center">
+
+                            <div class="img-thumbnail" style="width:181px;">
+
+                                <img src="jewells.png" class="img-fluid">
+
+                                <p class="text-center"> Price <span class="px-4"> $985</span></p>
+
+                                <a href="#" class="px-4" style="color: purple;"> CART</a> |
+
+                                <a href="#" class="px-3" style="color: purple;"> VIEW</a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 mb-5 text-center">
+
+                            <div class="img-thumbnail" style="width:200px;">
+
+                                <img src="ring.png" class="img-fluid">
+
+                                <p class="text-center"> Price <span class="px-4"> $2145</span></p>
+
+                                <a href="#" class="px-4" style="color: purple;"> CART</a> |
+
+                                <a href="#" class="px-3" style="color: purple;"> VIEW</a>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+
+                            <h4 class='font-weight-normal' style="color: purple; font-size:22px;">
+                                <span class="text-dark"> FUSCES</span> ID VENINATISVELT
+                                <span class="text-dark"> VELT</span></h4>
+
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit beatae architecto facilis enim temporibus asperiores dignissimos eos magni, obcaecati earum ex nesciunt corrupti perferendis. Quo necessitatibus beatae
+                                ducimus fugit atque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ullam nulla obcaecati dolorum illum deserunt dolor quas cumque dignissimos aut enim repudiandae, eum, optio suscipit dolorem perferendis
+                                beatae? Aliquam, laudantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique dolorum officiis molestias. Tempora, itaque repellat corrupti quasi earum eius possimus rerum quae. Inventore atque nam deleniti
+                                reprehenderit consequatur vitae non!.</p>
+                        </div>
+
+
+                        <div class="row mt-5">
+
+                            <h4 class='font-weight-normal' style="color: purple; font-size:22px;">
+                                <span class="text-dark"> FUSCES</span> ID VENINATISVELT
+                                <span class="text-dark"> VELT</span></h4>
+
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit beatae architecto facilis enim temporibus asperiores dignissimos eos magni, obcaecati earum ex nesciunt corrupti perferendis. Quo necessitatibus beatae
+                                ducimus fugit atque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ullam nulla obcaecati dolorum illum deserunt dolor quas cumque dignissimos aut enim repudiandae, eum, optio suscipit dolorem perferendis
+                                beatae? Aliquam, laudantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique dolorum officiis molestias. Tempora, itaque repellat corrupti quasi earum eius possimus rerum quae. Inventore atque nam deleniti
+                                reprehenderit consequatur vitae non!.</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="container px-0">
+                    <div class="row px-4" style="background: purple;">
+
+                        <div class="col-md-6">
+
+                            <p class="text-white mt-2">@Copy Jewllerystore.com</p>
+                        </div>
+
+                        <div class="col-md-6 mt-2 text-white" id="map">
+
+                            <a href="#"> Home</a> |
+                            <a href=" # "> About</a> |
+                            <a href=" # "> Products</a> |
+                            <a href=" # "> Help</a> |
+                            <a href=" # "> Contact</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+</body>
+
+
+</html>
+</div>
+</body>
+
+
+</html>
